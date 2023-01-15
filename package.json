@@ -21,15 +21,22 @@
     "start:together": "concurrently \"npm run start:dev\" \"npm run start --prefix client\""
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.8",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/mongoose": "^9.2.1",
     "@nestjs/platform-express": "^9.0.0",
+    "axios": "^1.2.2",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.0",
     "concurrently": "^7.6.0",
+    "framer-motion": "^8.4.3",
     "mongoose": "^6.8.3",
+    "react-icons": "^4.7.1",
+    "react-scripts": "^5.0.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
   },
